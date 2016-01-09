@@ -8,20 +8,28 @@
 
 /* Begin PBXBuildFile section */
 		20FCCBF81C410BE200935FD8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20FCCBF71C410BE200935FD8 /* AppDelegate.swift */; };
-		20FCCBFA1C410BE200935FD8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20FCCBF91C410BE200935FD8 /* ViewController.swift */; };
 		20FCCBFD1C410BE200935FD8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 20FCCBFB1C410BE200935FD8 /* Main.storyboard */; };
 		20FCCBFF1C410BE200935FD8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 20FCCBFE1C410BE200935FD8 /* Assets.xcassets */; };
 		20FCCC021C410BE200935FD8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 20FCCC001C410BE200935FD8 /* LaunchScreen.storyboard */; };
+		20FCCC0A1C410D7500935FD8 /* LectureTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20FCCC091C410D7500935FD8 /* LectureTableViewController.swift */; };
+		20FCCC0C1C410D8600935FD8 /* LectureTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20FCCC0B1C410D8600935FD8 /* LectureTableViewCell.swift */; };
+		20FCCC0E1C410DAA00935FD8 /* LectureDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20FCCC0D1C410DAA00935FD8 /* LectureDetailViewController.swift */; };
+		20FCCC101C410DBB00935FD8 /* Lecture.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20FCCC0F1C410DBB00935FD8 /* Lecture.swift */; };
+		20FCCC121C410DDB00935FD8 /* LectureDetailTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20FCCC111C410DDB00935FD8 /* LectureDetailTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		20FCCBF41C410BE200935FD8 /* LecturePin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LecturePin.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		20FCCBF71C410BE200935FD8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		20FCCBF91C410BE200935FD8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		20FCCBFC1C410BE200935FD8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		20FCCBFE1C410BE200935FD8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		20FCCC011C410BE200935FD8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		20FCCC031C410BE200935FD8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		20FCCC091C410D7500935FD8 /* LectureTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LectureTableViewController.swift; sourceTree = "<group>"; };
+		20FCCC0B1C410D8600935FD8 /* LectureTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LectureTableViewCell.swift; sourceTree = "<group>"; };
+		20FCCC0D1C410DAA00935FD8 /* LectureDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LectureDetailViewController.swift; sourceTree = "<group>"; };
+		20FCCC0F1C410DBB00935FD8 /* Lecture.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Lecture.swift; sourceTree = "<group>"; };
+		20FCCC111C410DDB00935FD8 /* LectureDetailTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LectureDetailTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,11 +63,15 @@
 			isa = PBXGroup;
 			children = (
 				20FCCBF71C410BE200935FD8 /* AppDelegate.swift */,
-				20FCCBF91C410BE200935FD8 /* ViewController.swift */,
 				20FCCBFB1C410BE200935FD8 /* Main.storyboard */,
 				20FCCBFE1C410BE200935FD8 /* Assets.xcassets */,
 				20FCCC001C410BE200935FD8 /* LaunchScreen.storyboard */,
 				20FCCC031C410BE200935FD8 /* Info.plist */,
+				20FCCC091C410D7500935FD8 /* LectureTableViewController.swift */,
+				20FCCC0B1C410D8600935FD8 /* LectureTableViewCell.swift */,
+				20FCCC0D1C410DAA00935FD8 /* LectureDetailViewController.swift */,
+				20FCCC0F1C410DBB00935FD8 /* Lecture.swift */,
+				20FCCC111C410DDB00935FD8 /* LectureDetailTableViewCell.swift */,
 			);
 			path = LecturePin;
 			sourceTree = "<group>";
@@ -136,8 +148,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				20FCCBFA1C410BE200935FD8 /* ViewController.swift in Sources */,
+				20FCCC0A1C410D7500935FD8 /* LectureTableViewController.swift in Sources */,
+				20FCCC0C1C410D8600935FD8 /* LectureTableViewCell.swift in Sources */,
+				20FCCC121C410DDB00935FD8 /* LectureDetailTableViewCell.swift in Sources */,
+				20FCCC0E1C410DAA00935FD8 /* LectureDetailViewController.swift in Sources */,
 				20FCCBF81C410BE200935FD8 /* AppDelegate.swift in Sources */,
+				20FCCC101C410DBB00935FD8 /* Lecture.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
