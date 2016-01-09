@@ -12,14 +12,14 @@ class Lecture  {
     var name = ""
     var type = ""
     var professor = ""
-    var sessiion = ""
+    var semester = ""
     var image = ""
     
-    init(name:String, type:String, professor:String, sessiion: String, image: String) {
+    init(name:String, type:String, professor:String, semester: String, image: String) {
         self.name = name
         self.type = type
         self.professor = professor
-        self.sessiion = sessiion
+        self.semester = semester
         self.image = image
     }
 }

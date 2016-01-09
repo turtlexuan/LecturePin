@@ -73,8 +73,8 @@ class LectureDetailViewController: UIViewController, UITableViewDataSource, UITa
             cell.fieldLabel.text = "Type"
             cell.valueLabel.text = lecture.type
         case 3:
-            cell.fieldLabel.text = "Session"
-            cell.valueLabel.text = lecture.sessiion
+            cell.fieldLabel.text = "Semester"
+            cell.valueLabel.text = lecture.semester
         default:
             cell.fieldLabel.text = ""
             cell.valueLabel.text = ""

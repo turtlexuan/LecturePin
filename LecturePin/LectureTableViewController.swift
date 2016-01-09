@@ -11,21 +11,21 @@ import UIKit
 class LectureTableViewController: UITableViewController {
 
     var lectures:[Lecture] = [
-        Lecture(name: "經濟學原理", type: "必修", professor: "林明仁", sessiion: "100-1 & 100-2", image: "經濟學原理.jpeg"),
-        Lecture(name: "個體經濟學", type: "必修", professor: "黃貞穎", sessiion: "101-1 & 101-2", image: "個體經濟學.jpg"),
-        Lecture(name: "總體經濟學", type: "必修", professor: "毛慶生", sessiion: "101-1 & 101-2", image: "總體經濟學.jpg"),
-        Lecture(name: "統計學", type: "必修", professor: "林惠玲", sessiion: "101-1 & 101-2", image: "統計學.jpg"),
-        Lecture(name: "國際關係", type: "選修", professor: "明居正", sessiion: "101-1 & 101-2", image: "國際關係.jpg"),
-        Lecture(name: "國際公法", type: "選修", professor: "蔡季廷", sessiion: "101-1 & 101-2", image: "國際公法.jpg"),
-        Lecture(name: "視覺文化與紀錄片拍攝", type: "通識", professor: "鍾宜杰", sessiion: "102 Summer", image: "視覺文化與紀錄片拍攝.jpg"),
-        Lecture(name: "財政學", type: "選修", professor: "林全", sessiion: "102-1", image: "財政學.jpg"),
-        Lecture(name: "貨幣銀行學", type: "選修", professor: "李怡庭", sessiion: "102-1", image: "貨幣銀行學.jpg"),
-        Lecture(name: "視聽資料製作", type: "選修", professor: "朱則剛", sessiion: "102-1", image: "視聽資料製作.jpg"),
-        Lecture(name: "媒體素養", type: "選修", professor: "陳炳宏", sessiion: "102-1", image: "媒體素養.jpg"),
-        Lecture(name: "投資學", type: "選修", professor: "陳彥行", sessiion: "103-1", image: "投資學.jpg"),
-        Lecture(name: "新聞攝影", type: "選修", professor: "楊光昇", sessiion: "103-1", image: "新聞攝影.jpg"),
-        Lecture(name: "賽局理論與策略思考", type: "選修", professor: "馮勃翰", sessiion: "104-1", image: "賽局理論與策略思考.jpg"),
-        Lecture(name: "程式語言", type: "選修", professor: "穆信成", sessiion: "104-1", image: "程式語言.jpg"),
+        Lecture(name: "經濟學原理", type: "必修", professor: "林明仁", semester: "100-1 & 100-2", image: "經濟學原理.jpeg"),
+        Lecture(name: "個體經濟學", type: "必修", professor: "黃貞穎", semester: "101-1 & 101-2", image: "個體經濟學.jpg"),
+        Lecture(name: "總體經濟學", type: "必修", professor: "毛慶生", semester: "101-1 & 101-2", image: "總體經濟學.jpg"),
+        Lecture(name: "統計學", type: "必修", professor: "林惠玲", semester: "101-1 & 101-2", image: "統計學.jpg"),
+        Lecture(name: "國際關係", type: "選修", professor: "明居正", semester: "101-1 & 101-2", image: "國際關係.jpg"),
+        Lecture(name: "國際公法", type: "選修", professor: "蔡季廷", semester: "101-1 & 101-2", image: "國際公法.jpg"),
+        Lecture(name: "視覺文化與紀錄片拍攝", type: "通識", professor: "鍾宜杰", semester: "102 Summer", image: "視覺文化與紀錄片拍攝.jpg"),
+        Lecture(name: "財政學", type: "選修", professor: "林全", semester: "102-1", image: "財政學.jpg"),
+        Lecture(name: "貨幣銀行學", type: "選修", professor: "李怡庭", semester: "102-1", image: "貨幣銀行學.jpg"),
+        Lecture(name: "視聽資料製作", type: "選修", professor: "朱則剛", semester: "102-1", image: "視聽資料製作.jpg"),
+        Lecture(name: "媒體素養", type: "選修", professor: "陳炳宏", semester: "102-1", image: "媒體素養.jpg"),
+        Lecture(name: "投資學", type: "選修", professor: "陳彥行", semester: "103-1", image: "投資學.jpg"),
+        Lecture(name: "新聞攝影", type: "選修", professor: "楊光昇", semester: "103-1", image: "新聞攝影.jpg"),
+        Lecture(name: "賽局理論與策略思考", type: "選修", professor: "馮勃翰", semester: "104-1", image: "賽局理論與策略思考.jpg"),
+        Lecture(name: "程式語言", type: "選修", professor: "穆信成", semester: "104-1", image: "程式語言.jpg"),
     ]
     
     override func viewDidLoad() {
